@@ -2,7 +2,11 @@
 
 **MyStudies** is a mobile application designed to unify academic processes into a single, integrated platform. [cite_start]It transforms institutional schedules (PDFs) into interactive calendars, captures assignment and exam details from Blackboard announcements using OCR, calculates GPA, and centralizes course resources[cite: 337, 338].
 
-> [cite_start]**Project Status:** Graduation Project (CS471) - Jubail Industrial College.
+> **Project Status:** Graduation Project (CS471) - Jubail Industrial College.
+
+<p align="center">
+  <img src="assets/screenshots/info.jpg" width="100%" alt="MyStudies Overview">
+</p>
 
 ---
 
@@ -54,13 +58,13 @@
     git clone [PROJECT_REPO_URL] mystudies
     cd mystudies
     ```
-    *[cite: 115, 120]*
+    [cite_start]*[cite: 115, 120]*
 
 2.  **Install Dependencies**
     ```bash
     flutter pub get
     ```
-    *[cite: 125]*
+    [cite_start]*[cite: 125]*
 
 3.  **Configure Environment**
     Create `lib/config/environment.dart` if it doesn't exist:
@@ -71,14 +75,14 @@
       static const bool isProduction = false;
     }
     ```
-    *[cite: 131-138]*
+    [cite_start]*[cite: 131-138]*
 
 4.  **Run the Application**
     Ensure a device/emulator is connected, then run:
     ```bash
     flutter run
     ```
-    *[cite: 146]*
+    [cite_start]*[cite: 146]*
 
 ---
 
@@ -87,40 +91,32 @@
 ```text
 mystudies/
 ├── lib/
-│   ├── core/               # Shared infrastructure (Theme, DB, Utils) [cite: 425]
+[cite_start]│   ├── core/               # Shared infrastructure (Theme, DB, Utils) [cite: 425]
 │   ├── features/
-│   │   ├── calendar/       # Event management & Logic [cite: 450]
-│   │   ├── gpa/            # GPA Calculator & Predictor [cite: 478]
-│   │   ├── notifications/  # Notification services [cite: 496]
-│   │   ├── resources/      # Course links & materials [cite: 506]
-│   │   ├── schedule/       # PDF Import & Parsing [cite: 521]
-│   │   ├── settings/       # App preferences [cite: 555]
-│   │   └── splash/         # Startup screen [cite: 561]
-│   └── main.dart           # Entry point [cite: 563]
-├── android/                # Android native config [cite: 263]
-├── ios/                    # iOS native config [cite: 264]
-└── pubspec.yaml            # Dependencies [cite: 270]
+[cite_start]│   │   ├── calendar/       # Event management & Logic [cite: 450]
+[cite_start]│   │   ├── gpa/            # GPA Calculator & Predictor [cite: 478]
+[cite_start]│   │   ├── notifications/  # Notification services [cite: 496]
+[cite_start]│   │   ├── resources/      # Course links & materials [cite: 506]
+[cite_start]│   │   ├── schedule/       # PDF Import & Parsing [cite: 521]
+[cite_start]│   │   ├── settings/       # App preferences [cite: 555]
+[cite_start]│   │   └── splash/         # Startup screen [cite: 561]
+[cite_start]│   └── main.dart           # Entry point [cite: 563]
+[cite_start]├── android/                # Android native config [cite: 263]
+[cite_start]├── ios/                    # iOS native config [cite: 264]
+[cite_start]└── pubspec.yaml            # Dependencies [cite: 270]
 ```
 👥 Authors (Team Members)
+Asim Alzahrani (ID: 421900453)
 
-Asim Alzahrani (ID: 421900453) 
+Mustafa Al Qattan (ID: 441101247)
 
+Majed Almutairi (ID: 431900118)
 
-Mustafa Al Qattan (ID: 441101247) 
+Abdulaziz Alghamdi (ID: 421901508)
 
+Turki Alshaikh (ID: 422100018)
 
-Majed Almutairi (ID: 431900118) 
-
-
-Abdulaziz Alghamdi (ID: 421901508) 
-
-
-Turki Alshaikh (ID: 422100018) 
-
-
-Supervisor: Mohhamed Yassine El Amrani 
+Supervisor: Mohhamed Yassine El Amrani
 
 📄 License
 This project was developed for academic purposes at Jubail Industrial College. All rights reserved to the development team.
-
-
