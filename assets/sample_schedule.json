@@ -1,0 +1,63 @@
+{
+  "courses": [
+    {
+      "id": "cs473",
+      "name": "Data Structures and Algorithms",
+      "code": "CS 473",
+      "creditHours": 3,
+      "schedule": [
+        {
+          "day": "Monday",
+          "time": "10:00 AM - 11:00 AM",
+          "room": "Engineering B-204"
+        },
+        {
+          "day": "Wednesday",
+          "time": "10:00 AM - 11:00 AM",
+          "room": "Engineering B-204"
+        },
+        {
+          "day": "Friday",
+          "time": "10:00 AM - 11:00 AM",
+          "room": "Engineering B-204"
+        }
+      ]
+    },
+    {
+      "id": "math301",
+      "name": "Calculus III",
+      "code": "MATH 301",
+      "creditHours": 4,
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "time": "2:00 PM - 3:30 PM",
+          "room": "Math Building 101"
+        },
+        {
+          "day": "Thursday",
+          "time": "2:00 PM - 3:30 PM",
+          "room": "Math Building 101"
+        }
+      ]
+    },
+    {
+      "id": "cs401",
+      "name": "Software Engineering",
+      "code": "CS 401",
+      "creditHours": 3,
+      "schedule": [
+        {
+          "day": "Monday",
+          "time": "1:00 PM - 2:30 PM",
+          "room": "Computer Science 205"
+        },
+        {
+          "day": "Wednesday",
+          "time": "1:00 PM - 2:30 PM",
+          "room": "Computer Science 205"
+        }
+      ]
+    }
+  ]
+}
